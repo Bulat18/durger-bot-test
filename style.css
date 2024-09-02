@@ -1,0 +1,56 @@
+body{
+    font-family: Suse;
+    margin: 0;
+    padding:0;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-background-color);
+}
+.container{
+    max-width: 390px;
+    font-family: Embed code;
+}
+.inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 5px;
+}
+
+.img{
+    width:150px;
+    height: 100px;
+
+}
+.item{
+    text-align:center;
+}
+.descriptioin{
+
+    font-family: Suse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cost{
+    font-weight: bold;
+}
+.btn{
+    display: inline-block;
+    padding:10px 20px;
+    border: none;
+    background: rgb(248,168,24);
+    border-radius:10px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight:  700;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    filter: brightness(1.2);
+}
+.btn:active {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Отбрасываем тень */
+    transform: translateY(1px); /* Немного опускаем кнопку для эффекта нажатия */
+}
