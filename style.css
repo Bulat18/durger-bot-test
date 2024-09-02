@@ -26,7 +26,7 @@ body{
     text-align:center;
 }
 .descriptioin{
-
+    color: var(--tg-theme-text-color);
     font-family: Suse;
     display: flex;
     align-items: center;
