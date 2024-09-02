@@ -7,8 +7,14 @@ body{
     background-color: var(--tg-theme-background-color);
 }
 .container{
+
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 390px;
-    font-family: Embed code;
+    height: 100vh;
+    min-height: 100vh;
 }
 .inner{
     display: grid;
