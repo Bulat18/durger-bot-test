@@ -61,3 +61,8 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Отбрасываем тень */
     transform: translateY(1px); /* Немного опускаем кнопку для эффекта нажатия */
 }
+
+
+.usercard{
+    text-align: center;
+}
