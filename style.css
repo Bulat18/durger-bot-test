@@ -16,14 +16,11 @@ body{
     max-width: 390px;
     height: 100vh;
     min-height: 100vh;
-    box-sizing: border-box; /* Включаем padding и border в общую высоту и ширину */
-    padding-bottom: 50px; /* Добавляем внутренний отступ для предотвращения "прыжков" */
 }
 .inner{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
-    justify-items: center; /* Центрируем элементы внутри сетки */
     row-gap: 5px;
 }
 
@@ -41,7 +38,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+
 }
 .cost{
     font-weight: bold;
