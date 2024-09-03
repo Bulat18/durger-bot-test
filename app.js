@@ -87,6 +87,6 @@ tg.onEvent("mainButtonBlicked", ()=>{
 
 let p = document.createElement("p");
 
-p.innerText=`${tg.initDataUnsafe.username}`
+p.innerText=`${tg.initDataUnsafe.user.username}`
 
 usercard.appendChild(p);
