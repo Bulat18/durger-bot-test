@@ -80,7 +80,7 @@ btn6.addEventListener("click",function(){
     }
 });
 
-tg.onEvent("mainButtonBlicked", ()=>{
+Telegram.WebApp.onEvent("mainButtonBlicked", ()=>{
      tg.sendData(item);
 });
 
