@@ -14,7 +14,7 @@ let btn5 = document.getElementById('btn5');
 let btn6 = document.getElementById('btn6');
 
 btn1.addEventListener("click",function(){
-    if (MainButton.isVisible){
+    if (tg.MainButton.isVisible){
         tg.MainButton.hide();
     }
     else{
@@ -25,7 +25,7 @@ btn1.addEventListener("click",function(){
 });
 
 btn2.addEventListener("click",function(){
-    if (MainButton.isVisible){
+    if (tg.MainButton.isVisible){
         tg.MainButton.hide();
     }
     else{
@@ -36,7 +36,7 @@ btn2.addEventListener("click",function(){
 });
 
 btn3.addEventListener("click",function(){
-    if (MainButton.isVisible){
+    if (tg.MainButton.isVisible){
         tg.MainButton.hide();
     }
     else{
@@ -48,7 +48,7 @@ btn3.addEventListener("click",function(){
 
 
 btn4.addEventListener("click",function(){
-    if (MainButton.isVisible){
+    if (tg.MainButton.isVisible){
         tg.MainButton.hide();
     }
     else{
@@ -59,7 +59,7 @@ btn4.addEventListener("click",function(){
 });
 
 btn5.addEventListener("click",function(){
-    if (MainButton.isVisible){
+    if (tg.MainButton.isVisible){
         tg.MainButton.hide();
     }
     else{
@@ -70,7 +70,7 @@ btn5.addEventListener("click",function(){
 });
 
 btn6.addEventListener("click",function(){
-    if (MainButton.isVisible){
+    if (tg.MainButton.isVisible){
         tg.MainButton.hide();
     }
     else{
@@ -80,7 +80,7 @@ btn6.addEventListener("click",function(){
     }
 });
 
-Telegram.WebApp.onEvent("mainButtonBlicked", ()=>{
+Telegram.WebApp.onEvent("mainButtonClicked", ()=>{
      tg.sendData(item);
 });
 
