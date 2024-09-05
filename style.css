@@ -7,9 +7,11 @@ body{
     background-color: var(--tg-theme-background-color);
 }
 .container{
-    margin-top:50px;
+
     position: relative;
     margin: 10px auto;
+    margin-top:50px;
+    padding-top:50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,14 +67,14 @@ body{
 
 
 .usercard{
-
+    font-weight: bold;
     position:fixed;
     top:0;
     width: 100%;
     padding: 10px 0; /* Отступы внутри блока */
     z-index: 1000; /* Устанавливаем элемент выше других на странице */
     background: rgba(172, 164, 164, 0.7); /* Полупрозрачный белый фон */
-    backdrop-filter: blur(40px); /* Размытие фона за элементом */
+    backdrop-filter: blur(60px); /* Размытие фона за элементом */
     border: 1px solid rgba(172, 164, 164, 0.7); /* Полупрозрачная граница */
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
