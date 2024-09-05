@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     justify-content: center;
     max-width: 390px;
-
+}
 .inner{
     display: grid;
     grid-template-columns: 1fr 1fr;
