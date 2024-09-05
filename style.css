@@ -7,7 +7,7 @@ body{
     background-color: var(--tg-theme-background-color);
 }
 .container{
-    padding-top: 20px;
+
     position: relative;
     margin: 10px auto;
     display: flex;
@@ -16,7 +16,7 @@ body{
     max-width: 390px;
 }
 .inner{
-
+    margin-top:30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
@@ -71,9 +71,10 @@ body{
     width: 100%;
     padding: 10px 0; /* Отступы внутри блока */
     z-index: 1000; /* Устанавливаем элемент выше других на странице */
-    background: rgba(131, 129, 129, 0.7); /* Полупрозрачный белый фон */
+    background: rgba(172, 164, 164, 0.7); /* Полупрозрачный белый фон */
     backdrop-filter: blur(40px); /* Размытие фона за элементом */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Полупрозрачная граница */
+    border: 1px solid rgba(172, 164, 164, 0.7); /* Полупрозрачная граница */
+    border-radius:15px;
     text-align: center;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Тень для глубины */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Тень для глубины */
 }
