@@ -65,16 +65,13 @@ body{
 .usercard{
 
     position:fixed;
-    top: 0;
-    left:0;
+    top:0;
     width: 100%;
     padding: 10px 0; /* Отступы внутри блока */
     z-index: 1000; /* Устанавливаем элемент выше других на странице */
-    background: rgba(255, 255, 255, 0.2); /* Полупрозрачный белый фон */
-    backdrop-filter: blur(10px); /* Размытие фона за элементом */
-    border-radius: 15px; /* Скругленные углы */
+    background: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый фон */
+    backdrop-filter: blur(20px); /* Размытие фона за элементом */
     border: 1px solid rgba(255, 255, 255, 0.3); /* Полупрозрачная граница */
     text-align: center;
-    margin: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); /* Тень для глубины */
 }
