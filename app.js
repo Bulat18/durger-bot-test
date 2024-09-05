@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 
-tg.expand();
+tg.expand(); // Раскрываем WebApp на весь экран
 
 tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color =  '#2cab37';
