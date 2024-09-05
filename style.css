@@ -7,7 +7,7 @@ body{
     background-color: var(--tg-theme-background-color);
 }
 .container{
-
+    margin-top:50px;
     position: relative;
     margin: 10px auto;
     display: flex;
@@ -16,7 +16,7 @@ body{
     max-width: 390px;
 }
 .inner{
-    margin-top:30px;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
@@ -74,7 +74,8 @@ body{
     background: rgba(172, 164, 164, 0.7); /* Полупрозрачный белый фон */
     backdrop-filter: blur(40px); /* Размытие фона за элементом */
     border: 1px solid rgba(172, 164, 164, 0.7); /* Полупрозрачная граница */
-    border-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
     text-align: center;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Тень для глубины */
 }
