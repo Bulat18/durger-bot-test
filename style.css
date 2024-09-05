@@ -10,8 +10,8 @@ body{
 
     position: relative;
     margin: 10px auto;
-    margin-top:50px;
-    padding-top:50px;
+    margin-top:45px;
+    padding-top:45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,11 +73,11 @@ body{
     width: 100%;
     padding: 10px 0; /* Отступы внутри блока */
     z-index: 1000; /* Устанавливаем элемент выше других на странице */
-    background: rgba(172, 164, 164, 0.7); /* Полупрозрачный белый фон */
-    backdrop-filter: blur(60px); /* Размытие фона за элементом */
+    background: rgba(180, 173, 173, 0.7); /* Полупрозрачный белый фон */
+    backdrop-filter: blur(90px); /* Размытие фона за элементом */
     border: 1px solid rgba(172, 164, 164, 0.7); /* Полупрозрачная граница */
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
     text-align: center;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Тень для глубины */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Тень для глубины */
 }
